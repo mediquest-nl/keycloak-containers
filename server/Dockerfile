@@ -14,7 +14,7 @@ ENV LANG en_US.UTF-8
 ARG GIT_REPO
 ARG GIT_BRANCH
 #ARG KEYCLOAK_DIST=https://github.com/keycloak/keycloak/releases/download/$KEYCLOAK_VERSION/keycloak-$KEYCLOAK_VERSION.tar.gz
-ARG KEYCLOAK_DIST=https://github.com/mediquest-nl/keycloak/archive/refs/tags/12.0.4-jurjanpaul.tar.gz
+ARG KEYCLOAK_DIST=https://github.com/mediquest-nl/keycloak/releases/download/12.0.4-jurjanpaul/keycloak-12.0.4.tar.gz
 
 USER root
 
