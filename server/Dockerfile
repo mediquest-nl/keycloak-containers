@@ -13,7 +13,8 @@ ENV LANG en_US.UTF-8
 
 ARG GIT_REPO
 ARG GIT_BRANCH
-ARG KEYCLOAK_DIST=https://github.com/keycloak/keycloak/releases/download/$KEYCLOAK_VERSION/keycloak-legacy-$KEYCLOAK_VERSION.tar.gz
+# ARG KEYCLOAK_DIST=https://github.com/keycloak/keycloak/releases/download/$KEYCLOAK_VERSION/keycloak-legacy-$KEYCLOAK_VERSION.tar.gz
+ARG KEYCLOAK_DIST=https://github.com/mediquest-nl/keycloak/releases/download/18.0.0-jurjanpaul/keycloak-legacy-18.0.0.tar.gz
 
 USER root
 
